@@ -30,7 +30,7 @@ author_bio: Hi, my name is Tom Fewster. I develop games using Unity Game Engine
 author_email: "tomfewz@gmail.com"
 author_location: England
 author_website_url: "https://fewsgames.github.io/"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: Unity Game Developer, 3D Artist
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -107,8 +107,8 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
+show_author_work_experiences: false
+show_author_education_details: false
 show_author_project_details: true
 
 # pagination of posts
@@ -134,7 +134,7 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   products:
-    output: true
+    output: false
   authors:
     output: true
 
